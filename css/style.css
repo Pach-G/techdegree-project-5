@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+}
+
+#search {
+  margin: auto;
+  align-content: center;
+  padding: 15px;
+}
+
+input[type=text] {
+  width: 30%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+input[type=text]:focus {
+  width: 70%;
+}
+
+/*# sourceMappingURL=style.css.map */
