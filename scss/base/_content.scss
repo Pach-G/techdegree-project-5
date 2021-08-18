@@ -1,0 +1,25 @@
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+  box-sizing: border-box;
+  font-family: $base-font;
+  color: $color-text;
+
+}
+
+main {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}

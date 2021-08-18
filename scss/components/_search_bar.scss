@@ -1,0 +1,20 @@
+/* ============================================= */
+/*              Search Bar Layout                */
+/* ============================================= */
+
+#search {
+  display: block;
+  align-content: center;
+  margin: 30px auto;
+  padding: 10px;
+  width: 45%;
+  border-radius: 5px;
+  border: 1.5px solid #3a4f33;
+  color: #33414f;
+
+  &:focus,
+  &:hover {
+    background-color: rgba(58, 206, 194, 15%);
+    outline: none;
+  }
+}

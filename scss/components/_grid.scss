@@ -1,0 +1,21 @@
+/* ============================================= */
+/*              Grid Layout                      */
+/* ============================================= */
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, min-content));
+  grid-row: auto;
+  justify-content: center;
+  padding-right: 1rem;
+  padding-left: 1em;
+  width: auto;
+  margin: 0 auto;
+  gap: 1.5rem;
+  & a  {
+  @include img-effect();
+  }
+}
+
+
