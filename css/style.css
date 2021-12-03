@@ -1,13 +1,4 @@
 /* ============================================= */
-/*              PartialImports                   */
-/* ============================================= */
-/* ============================================= */
-/*              Variables                        */
-/* ============================================= */
-/* ============================================= */
-/*              Mixins                           */
-/* ============================================= */
-/* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 * {
@@ -379,7 +370,7 @@ template {
   padding: 10px;
   width: 45%;
   border-radius: 5px;
-  border: 1.5px solid #3a4f33;
+  border: 2px solid #3a4f33;
   color: #33414f;
 }
 #search:focus, #search:hover {
@@ -391,19 +382,16 @@ template {
 /*              Grid Layout                      */
 /* ============================================= */
 .container {
+  justify-content: center;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, min-content));
-  grid-row: auto;
-  justify-content: center;
-  padding-right: 1rem;
-  padding-left: 1em;
-  width: auto;
-  margin: 0 auto;
+  grid-template-rows: 200px;
   gap: 1.5rem;
 }
 .container a {
   transition-duration: 0.6s;
-  transition-delay: 0.2s;
 }
 .container a:hover, .container a:focus {
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);

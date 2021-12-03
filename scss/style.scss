@@ -1,18 +1,15 @@
 
-/* ============================================= */
-/*              PartialImports                   */
-/* ============================================= */
-
+// =============================================
+//              PartialImports
+// =============================================
 
 // Utilities
 @import "utilities/variables",
         "utilities/mixins";
 
-
 // Base Style
 @import "base/content",
         "base/normalize";
-
 
 // Component Styles
 @import "components/search_bar",
