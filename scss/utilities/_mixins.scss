@@ -4,9 +4,8 @@
 
 // Gives Images pop effect
 @mixin img-effect() {
-  //margin: 0 auto;
   transition-duration: .6s;
-  //transition-delay: .2s;
+  transition-delay: .1s;
 
   &:hover,
   &:focus {
