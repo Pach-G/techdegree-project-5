@@ -8,9 +8,23 @@
   transition-delay: .1s;
 
   // Active state effects
-  &:hover,
-  &:focus {
-    box-shadow: 0 .25em .5em 0 rgba(black, .2);
-    transform: scale(1.15);
+  &:hover {
+    box-shadow: 0 .25em .5em 0 rgba(black, .5);
+    transform: scale(1.10);
   }
 }
+
+
+//TODO add font files and include mixin in _search_bar
+//@mixin font-face($family, $file) {
+//  @font-face {
+//    font-family: $family;
+//    src: url('#{$path-font}/#{$file}-webfont.eot');
+//    src: url('#{$path-font}/#{$file}-webfont.eot?#iefix')
+//    format('embedded-opentype'),
+//    url('#{$path-font}/#{$file}-webfont.woff')
+//    format('woff'),
+//    url('#{$path-font}/#{$file}-webfont.ttf')
+//    format('true-type');
+//  }
+//}

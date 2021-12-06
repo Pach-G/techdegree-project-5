@@ -10,13 +10,19 @@
 
   // Display & Box Model
   display: grid;
-  grid-template-columns: repeat(auto-fit, 200px);
+  //grid-template-columns: repeat(auto-fit, 200px);
+  //grid-auto-columns: ;
   grid-auto-rows: 200px;
   gap: 1.5rem;
-
 
   // effects
   & a {
     @include img-effect();
   }
+
+  //TODO remove white space on rounded corners
+  //& img {
+  //border-radius: 5px;
+  //}
 }
+
