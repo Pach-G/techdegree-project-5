@@ -3,15 +3,19 @@
 /* ============================================= */
 
 #search {
-  display: block;
-  align-content: center;
+  // Positioning
   margin: 30px auto;
   padding: 10px;
-  width: 45%;
-  border-radius: 5px;
+
+  // Display & Box Model
+  display: block;
+  width: 45vw;
+  max-width: 450px;
   border: 2px solid #3a4f33;
+  border-radius: 5px;
   color: #33414f;
 
+  // Active states effects
   &:focus,
   &:hover {
     background-color: rgba(206 181 58 / 15%);
