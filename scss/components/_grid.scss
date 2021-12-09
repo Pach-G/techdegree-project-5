@@ -10,8 +10,8 @@
 
   // Display & Box Model
   display: grid;
-  //grid-template-columns: repeat(auto-fit, 200px);
-  grid-auto-columns: 200px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  // grid-auto-columns: 200px;
   grid-auto-rows: 200px;
   gap: 1.5rem;
 
