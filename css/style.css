@@ -3,7 +3,7 @@
 /* ============================================= */
 * {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #777;
 }
 
@@ -377,9 +377,9 @@ template {
   background-repeat: no-repeat;
   background-origin: content-box;
 }
-#search::placeholder {
-  color: rgba(255, 127, 80, 0.8);
-  font-family: Avenir, Helvetica, sans-serif;
+#search::-moz-placeholder {
+  color: rgba(128, 36, 0, 0.8);
+  font-weight: bold;
 }
 #search:focus, #search:hover {
   background-color: rgba(206, 181, 58, 0.15);

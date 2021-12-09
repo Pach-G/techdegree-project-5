@@ -14,10 +14,9 @@
   border: 2px solid #3a4f33;
   border-radius: 5px;
   color: #33414f;
-  &::placeholder {
-    color: rgba(255, 127, 80, .80);
-    //TODO include font-face mixin
-    font-family: Avenir, Helvetica, sans-serif;
+  &::-moz-placeholder {
+    color: rgba(128, 36, 0, 0.8);
+    font-weight: bold;
   }
 
   // Search bar Icon Layout & Style
