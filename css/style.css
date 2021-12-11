@@ -366,6 +366,7 @@ template {
 #search {
   margin: 30px auto;
   padding: 10px;
+  grid-area: search-bar;
   display: block;
   width: 45vw;
   max-width: 450px;
@@ -377,7 +378,7 @@ template {
   background-repeat: no-repeat;
   background-origin: content-box;
 }
-#search::-moz-placeholder {
+#search::placeholder {
   color: rgba(128, 36, 0, 0.8);
   font-weight: bold;
 }
@@ -389,7 +390,7 @@ template {
 /* ============================================= */
 /*              Grid Layout                      */
 /* ============================================= */
-.container {
+.img-grid {
   justify-content: center;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -398,11 +399,11 @@ template {
   grid-auto-rows: 200px;
   gap: 1.5rem;
 }
-.container a {
+.img-grid a {
   transition-duration: 0.6s;
   transition-delay: 0.1s;
 }
-.container a:hover {
+.img-grid a:hover {
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.5);
   transform: scale(1.1);
 }

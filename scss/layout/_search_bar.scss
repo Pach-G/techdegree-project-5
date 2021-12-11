@@ -6,6 +6,7 @@
   // Positioning
   margin: 30px auto;
   padding: 10px;
+  grid-area: search-bar;
 
   // Display & Box Model
   display: block;
@@ -14,7 +15,7 @@
   border: 2px solid #3a4f33;
   border-radius: 5px;
   color: #33414f;
-  &::-moz-placeholder {
+  &::placeholder {
     color: rgba(128, 36, 0, 0.8);
     font-weight: bold;
   }
