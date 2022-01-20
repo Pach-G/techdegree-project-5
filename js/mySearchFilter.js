@@ -21,5 +21,3 @@ const searchWord = () => {
         }
     }
 };
-
-
