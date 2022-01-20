@@ -21,6 +21,13 @@ a {
   text-decoration: none;
 }
 
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -363,34 +370,38 @@ template {
 /* ============================================= */
 /*              Search Bar Layout                */
 /* ============================================= */
-#search {
+#searchBar {
   margin: 30px auto;
   padding: 10px;
   grid-area: search-bar;
   display: block;
-  width: 45vw;
-  max-width: 450px;
+  min-width: 200px;
+  width: 30vw;
+  max-width: 300px;
   border: 2px solid #3a4f33;
   border-radius: 5px;
   color: #33414f;
-  background-image: url("../../icons/magnifying-glass-solid.svg");
+  transition: width 0.3s ease-in-out;
+  background-image: url("../icons/magnifying-glass-solid.svg");
   background-position: right 25px bottom;
   background-repeat: no-repeat;
   background-origin: content-box;
 }
-#search::placeholder {
+#searchBar::placeholder {
   color: rgba(128, 36, 0, 0.8);
   font-weight: bold;
 }
-#search:focus, #search:hover {
+#searchBar:focus, #searchBar:hover {
   background-color: rgba(206, 181, 58, 0.15);
   outline: none;
+  width: 45vw;
+  max-width: 450px;
 }
 
 /* ============================================= */
 /*              Grid Layout                      */
 /* ============================================= */
-.img-grid {
+#img-grid {
   justify-content: center;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -399,11 +410,11 @@ template {
   grid-auto-rows: 200px;
   gap: 1.5rem;
 }
-.img-grid a {
+#img-grid li {
   transition-duration: 0.6s;
   transition-delay: 0.1s;
 }
-.img-grid a:hover {
+#img-grid li:hover {
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.5);
   transform: scale(1.1);
 }

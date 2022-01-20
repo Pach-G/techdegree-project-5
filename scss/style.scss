@@ -4,14 +4,14 @@
 
 // Utilities
 @import "utilities/variables",
-"utilities/mixins";
+        "utilities/mixins";
 
 // Base Style
 @import "base/content",
-"base/normalize";
+        "base/normalize";
 
 // Component Styles
 @import "layout/search_bar",
-"layout/grid";
+        "layout/grid";
 
 

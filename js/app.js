@@ -1,2 +1,2 @@
-baguetteBox.run('.img-grid');
-const search = new Filter('search', 'data-caption');
+baguetteBox.run('#img-grid');
+// const search = new Filter('search', 'data-caption');

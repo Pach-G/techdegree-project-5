@@ -2,7 +2,7 @@
 //              Mixins
 // =============================================
 
-// Gives Images pop effect
+// Gives Images a popUp effect
 @mixin img-effect() {
   transition-duration: .6s;
   transition-delay: .1s;
@@ -13,18 +13,3 @@
     transform: scale(1.10);
   }
 }
-
-
-//TODO add font files and include mixin in _search_bar
-//@mixin font-face($family, $file) {
-//  @font-face {
-//    font-family: $family;
-//    src: url('#{$path-font}/#{$file}-webfont.eot');
-//    src: url('#{$path-font}/#{$file}-webfont.eot?#iefix')
-//    format('embedded-opentype'),
-//    url('#{$path-font}/#{$file}-webfont.woff')
-//    format('woff'),
-//    url('#{$path-font}/#{$file}-webfont.ttf')
-//    format('true-type');
-//  }
-//}

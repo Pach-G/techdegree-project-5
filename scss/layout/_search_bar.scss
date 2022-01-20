@@ -2,7 +2,7 @@
 /*              Search Bar Layout                */
 /* ============================================= */
 
-#search {
+#searchBar {
   // Positioning
   margin: 30px auto;
   padding: 10px;
@@ -10,18 +10,20 @@
 
   // Display & Box Model
   display: block;
-  width: 45vw;
-  max-width: 450px;
+  min-width: 200px;
+  width: 30vw;
+  max-width: 300px;
   border: 2px solid #3a4f33;
   border-radius: 5px;
   color: #33414f;
+  transition: width 0.3s ease-in-out;
   &::placeholder {
     color: rgba(128, 36, 0, 0.8);
     font-weight: bold;
   }
 
   // Search bar Icon Layout & Style
-  background-image: url("../../icons/magnifying-glass-solid.svg");
+  background-image: url("../icons/magnifying-glass-solid.svg");
   background-position: right 25px bottom;
   background-repeat: no-repeat;
   background-origin: content-box;
@@ -31,5 +33,7 @@
   &:hover {
     background-color: rgba(206, 181, 58, 15%);
     outline: none;
+    width: 45vw;
+    max-width: 450px;
   }
 }
