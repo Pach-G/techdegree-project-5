@@ -381,10 +381,7 @@ template {
   border: 2px solid #3a4f33;
   border-radius: 5px;
   color: #33414f;
-<<<<<<< HEAD
   transition: width 0.3s ease-in-out;
-=======
->>>>>>> refs/remotes/origin/main
   background-image: url("../icons/magnifying-glass-solid.svg");
   background-position: right 25px bottom;
   background-repeat: no-repeat;
