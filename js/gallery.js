@@ -1,4 +1,4 @@
-const querySelector = document.getElementById('img-grid');
+const images = document.getElementById('img-grid');
 
 const createListItems = (array) => {
     let html = '';
@@ -16,4 +16,4 @@ const createListItems = (array) => {
     return html;
 };
 
-querySelector.innerHTML = createListItems(captionList);
+images.innerHTML = createListItems(captionList);
