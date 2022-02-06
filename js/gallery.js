@@ -29,16 +29,18 @@ const captionList = [
     "I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."
 ];
 const querySelector = document.querySelector('ul');
-let html = '';
 
-for (let i = 0; i <= 11; i++) {
-    html += `<li>
+function gallery() {
+    let html = "";
+    for (let i = 0; i < altList.length; i++) {
+        html += `<li>
               <a class="thumbnail-img"
                 href="photos/${i}.jpg"
                 data-caption = '${captionList[i]}' >
               <img src="photos/thumbnails/${i}.jpg" alt= "${altList[i]}"/>
               </a>
               </li>`;
+    }
+    return html;
 }
-
-querySelector.innerHTML = html;
+querySelector.innerHTML = gallery();
