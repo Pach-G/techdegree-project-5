@@ -3,15 +3,12 @@
 // =============================================
 
 // Utilities
-@import "utilities/variables",
-        "utilities/mixins";
+@import "utilities/index";
 
 // Base Style
-@import "base/content",
-        "base/normalize";
+@import "base/index";
 
 // Component Styles
-@import "layout/search_bar",
-        "layout/grid";
+@import "components/index";
 
 

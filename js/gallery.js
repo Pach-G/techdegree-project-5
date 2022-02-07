@@ -6,10 +6,10 @@ const createListItems = (array) => {
         html +=
             `<li>
               <a class = "thumbnail-img"
-                 href = "photos/${i}.jpg"
-                 data-caption = "${captionList[i].caption}" >
-              <img src = "photos/thumbnails/${i}.jpg" 
-                   alt = "${captionList[i].atl}"/>
+                 href = "images/${i}.jpg"
+                 data-caption = "${array[i].caption}" >
+              <img src = "images/thumbnails/${i}.jpg" 
+                   alt = "${array[i].atl}"/>
               </a>
             </li>`;
     }
